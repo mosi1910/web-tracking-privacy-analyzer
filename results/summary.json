@@ -1,0 +1,49 @@
+{
+  "site": "kruidvat.nl",
+  "variants": {
+    "accept": {
+      "num_requests": 529,
+      "num_cross_domain_redirections": 17,
+      "num_requests_w_cookies": 283,
+      "num_responses_w_cookies": 114,
+      "third_party_domains": 33,
+      "server_ips": 49,
+      "potential_tracking_cookies": 103,
+      "third_party_entities": 27,
+      "post_request_origins": 7
+    },
+    "reject": {
+      "num_requests": 388,
+      "num_cross_domain_redirections": 0,
+      "num_requests_w_cookies": 229,
+      "num_responses_w_cookies": 65,
+      "third_party_domains": 12,
+      "server_ips": 20,
+      "potential_tracking_cookies": 59,
+      "third_party_entities": 6,
+      "post_request_origins": 6
+    },
+    "ublock": {
+      "num_requests": 239,
+      "num_cross_domain_redirections": 0,
+      "num_requests_w_cookies": 156,
+      "num_responses_w_cookies": 53,
+      "third_party_domains": 4,
+      "server_ips": 10,
+      "potential_tracking_cookies": 49,
+      "third_party_entities": 1,
+      "post_request_origins": 4
+    },
+    "adguard": {
+      "num_requests": 441,
+      "num_cross_domain_redirections": 6,
+      "num_requests_w_cookies": 250,
+      "num_responses_w_cookies": 80,
+      "third_party_domains": 16,
+      "server_ips": 30,
+      "potential_tracking_cookies": 72,
+      "third_party_entities": 12,
+      "post_request_origins": 6
+    }
+  }
+}
