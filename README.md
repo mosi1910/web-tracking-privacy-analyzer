@@ -72,7 +72,3 @@ python -m unittest discover -s tests -v
 ## Security and privacy
 
 Original HAR files were exported with sensitive headers and must **not** be published: they may expose session cookies, authorization headers, browser identifiers, query parameters, and personal data. Detailed per-request JSON exports can include cookie values. `.gitignore` excludes these by default. The published aggregate results do not include raw URLs, cookie values, or IP addresses.
-
-## License
-
-No license is included. Add one only after confirming you own the code and are allowed to publish it under that license.
